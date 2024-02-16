@@ -58,6 +58,11 @@ html{
 	margin: 0 auto;
 }
 
+.content-container{
+	width: 1140px;
+	margin-left: 30px;
+}
+
 .left{
 	width: 60%;
 }
@@ -217,6 +222,50 @@ margin-bottom: 250px;
 
 .trhee{
 	margin-bottom: 220px;
+}
+
+.container-enterprise{
+	width: calc(100% - 60px);
+	border: 1px solid black;
+	margin-left: 30px;
+	margin-top: 40px;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.padding-e{
+	padding-top: 15px;
+	padding-bottom: 45px;
+}
+
+.margin-left-enter{
+	position: absolute;
+	top: 40px;
+	right: 0px;
+}
+
+/* partner */
+.img-partner{
+	width: 100%;
+}
+
+.padding-h-partner{
+	padding-left: 30px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.p-partner{
+	padding-left:30px;
+	padding-bottom:20px;
+}
+
+.btn-partner{
+	width: 160px;
+	margin-left: 30px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 6px 2px;
 }
 /* flex-variabily */
 
