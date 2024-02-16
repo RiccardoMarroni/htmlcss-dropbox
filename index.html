@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/style/style.css">
     <title>Dropbox</title>
 </head>
 <header>
     <!-- nav bar -->
-    <nav class="d-flex debug space-between"> 
+    <nav class="d-flex debug space-between">
         <div id="nav-left" class="debug">
             <ul class="d-flex">
                 <li> <img src="img/logo-small.png" alt="logo" class="padding-li"></li>
@@ -42,7 +45,7 @@
             <div class="d-flex">
                 <div class="left-jumbo padding-jumbo debug">
                     <p>finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto
-                        Dropbox Business è più di uno spazio di archivazione sicuro: è un modo intelligente e integrato 
+                        Dropbox Business è più di uno spazio di archivazione sicuro: è un modo intelligente e integrato
                         per ottimizzare il flusso di lavoro esistente
                     </p>
                     <div class="btn-start d-flex">
@@ -55,7 +58,7 @@
                         <i class="fa-solid fa-arrow-down fa-4x"></i>
                     </div>
                 </div>
-                
+
                 <div class="right-jumbo debug">
                     <img src="img/jumbo.png" alt="proposte per il cliente" class="img-jumbo ">
                 </div>
@@ -66,15 +69,153 @@
 
 <main>
     <section id="business" class="debug container">
-        <h2>titolo</h2>
-    <!--radio button --> 
-         <div class="debug"> 
-            button
-         </div>
-    <!-- business plan -->
-         <div class="debug small-container">
-            business plan
-         </div>
+        <h2 class="padding-business text-align title">trova il piano business che fa per te</h2>
+
+        <!--radio button -->
+        <div class="debug">
+            <label class="check"> Fatturazione mensile
+                <input type="radio" checked="checked" name="radio">
+                <span class="check"></span>
+            <label class="check">fatturazione annuale
+                <input type="radio" checked="checked" name="radio">
+                <span class="check"></span>
+        </div>
+        <!-- business plan 1 -->
+        <div class="container d-flex space-between pd-business">
+            <div class=" container-plan ">
+                <div class=" container-head text-align">
+                    <i class="fa-solid fa-user"></i>
+                    <span>singolo</span>
+                </div>
+                <ul >
+                    <li class="list"><h2>Professional</h2></li>
+                    <li class="list-2"><strong>€12,00</strong></li>
+                    <li class="list-2">/mese</li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-user"></i></li>
+                    <li class="list-item">1 utente</li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-folder"></i></li>
+                    <li class="list-item">5 TB di spazio di archivazione<br>sicuro</li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-share-nodes"></i></li>
+                    <li class="list-item">funzioni di produttività premium<br>
+                    e condivisione dile semplice e <br> sicura</li>
+                </ul>
+                <div class="btn-business">
+                    prova gratis per 30 giorni
+                </div>
+                <p class="buy">oppure <a class="text-blue" href="#">acquista ora</a>
+                </p>
+                <div class="segment"></div>
+                <ul>
+                    <li class="list"><h3>punti salienti del piano</h3></li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-check"></i></li>
+                    <li class="list-item">Invia file fino a 100 GB con <br>
+                    Dropbox Transfert</li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-check"></i></li>
+                    <li class="list-item">cartelle offline su dispositivi <br> mobili</li>
+                </ul>
+                <div class="one"></div>
+            </div>
+            <!-- business plan 2 -->
+            <div class="debug container-plan">
+                <div class=" container-head text-align">
+                    <i class="fa-solid fa-user"></i>
+                    <span>singolo</span>
+                </div>
+                <ul >
+                    <li class="list"><h2>Professional</h2></li>
+                    <li class="list-2"><strong>€12,00</strong></li>
+                    <li class="list-2">/mese</li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-user"></i></li>
+                    <li class="list-item">1 utente</li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-folder"></i></li>
+                    <li class="list-item">5 TB di spazio di archivazione<br>sicuro</li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-share-nodes"></i></li>
+                    <li class="list-item">funzioni di produttività premium<br>
+                    e condivisione dile semplice e <br> sicura</li>
+                </ul>
+                <div class="btn-business">
+                    prova gratis per 30 giorni
+                </div>
+                <p class="buy">oppure <a class="text-blue" href="#">acquista ora</a>
+                </p>
+                <div class="segment"></div>
+                <ul>
+                    <li class="list"><h3>punti salienti del piano</h3></li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-check"></i></li>
+                    <li class="list-item">Invia file fino a 100 GB con <br>
+                    Dropbox Transfert</li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-check"></i></li>
+                    <li class="list-item">cartelle offline su dispositivi <br> mobili</li>
+                </ul>
+                <div class="one"></div>
+            </div>
+            </div>
+            <!-- business plan 3 -->
+            <div class="debug container-plan">
+                <div class=" container-head text-align">
+                    <i class="fa-solid fa-user"></i>
+                    <span>singolo</span>
+                </div>
+                <ul >
+                    <li class="list"><h2>Professional</h2></li>
+                    <li class="list-2"><strong>€12,00</strong></li>
+                    <li class="list-2">/mese</li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-user"></i></li>
+                    <li class="list-item">1 utente</li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-folder"></i></li>
+                    <li class="list-item">5 TB di spazio di archivazione<br>sicuro</li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-share-nodes"></i></li>
+                    <li class="list-item">funzioni di produttività premium<br>
+                    e condivisione dile semplice e <br> sicura</li>
+                </ul>
+                <div class="btn-business">
+                    prova gratis per 30 giorni
+                </div>
+                <p class="buy">oppure <a class="text-blue" href="#">acquista ora</a>
+                </p>
+                <div class="segment"></div>
+                <ul>
+                    <li class="list"><h3>punti salienti del piano</h3></li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-check"></i></li>
+                    <li class="list-item">Invia file fino a 100 GB con <br>
+                    Dropbox Transfert</li>
+                </ul>
+                <ul class="d-flex list">
+                    <li class=""><i class="fa-solid fa-check"></i></li>
+                    <li class="list-item">cartelle offline su dispositivi <br> mobili</li>
+                </ul>
+                <div class="one"></div>
+            </div>
+            </div>
+        </div>
     </section>
 
     <section id="partner" class="debug d-flex container">
@@ -86,29 +227,29 @@
         </div>
     </section>
 
-     <!-- dropbox operation -->
+    <!-- dropbox operation -->
     <section id="operation" class="debug container">
         <div>zalando</div>
     </section>
 
-     <!-- discover more -->
-     <section id="discover" class=" debug container">
+    <!-- discover more -->
+    <section id="discover" class=" debug container">
         <h2>scopri</h2>
-     </section>
+    </section>
 
     <!-- square -->
-    <section id="publicity" class="debug"> 
-    <div>quadrati</div>
+    <section id="publicity" class="debug">
+        <div>quadrati</div>
     </section>
 
     <!-- call to action -->
     <section id="call-to-action" class="debug">
         <div class=" debug container d-flex">
             <div class="debug left">
-             left
+                left
             </div>
             <div class="debug right">
-             right
+                right
             </div>
         </div>
     </section>
@@ -126,7 +267,9 @@
         footer
     </div>
 </footer>
+
 <body>
-    
+
 </body>
+
 </html>
