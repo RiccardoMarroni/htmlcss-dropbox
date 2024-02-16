@@ -267,6 +267,19 @@ margin-bottom: 250px;
 	text-align: center;
 	padding: 6px 2px;
 }
+/* footer */
+.pad-footer{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.pad-footer-li{
+	padding-bottom: 20px;
+}
+
+.pad-footer-bottom{
+	padding-bottom: 250px;
+}
 /* flex-variabily */
 
 .d-flex{
