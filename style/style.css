@@ -77,11 +77,15 @@ html{
 
 .title{
 	font-size:30pt ;
-	margin-right: 400px;
+	margin-right: 300px;
 }
 
 .text-blue{
 	color: var(--color-button-blue);
+}
+
+.margin-top{
+	margin-top: 90px;
 }
 /* nav */
 .text-cl{
