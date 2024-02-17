@@ -76,7 +76,7 @@ html{
 }
 
 .title{
-	font-size:30pt ;
+	font-size:25pt ;
 	margin-right: 300px;
 }
 
@@ -84,9 +84,19 @@ html{
 	color: var(--color-button-blue);
 }
 
-.margin-top{
-	margin-top: 90px;
+.text-purple{
+	color: purple;
 }
+
+.margin-top{
+	margin-top: 150px;
+}
+
+.margin-left{
+	margin-left: 240px;
+}
+
+
 /* nav */
 .text-cl{
 	color: grey;
@@ -285,6 +295,51 @@ margin-bottom: 250px;
 .padding-operation{
 	padding-bottom: 20px;
 }
+
+/* discover */
+.padding-more{
+	margin-bottom: 130px
+}
+
+.padding-link{
+	padding-top: 60px;
+}
+
+/* square */
+.square{
+	width: 100%;
+	
+}
+
+.little-square{
+	width: 33%;
+}
+
+.img-square{
+	width: 50%;
+	height: 250px;
+}
+
+/* FAQ */
+.margin-faq{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.margin-faq-bottom{
+	margin-bottom: 60px;
+}
+
+.question{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.arrow-faq{
+	margin-left: 600px;
+}
 /* footer */
 .pad-footer{
 	padding-top: 100px;
@@ -297,6 +352,19 @@ margin-bottom: 250px;
 
 .pad-footer-bottom{
 	padding-bottom: 250px;
+}
+
+/* call to action */
+.padding-call{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.btn-call{
+	background-color: white;
+	width: 200px;
+	padding: 4px;
+	
 }
 /* flex-variabily */
 
