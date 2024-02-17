@@ -267,6 +267,20 @@ margin-bottom: 250px;
 	text-align: center;
 	padding: 6px 2px;
 }
+/* operation */
+.card{
+    width: calc(100% / 3 - 10px);
+    cursor:pointer;
+    margin-top: 40px;
+}
+.card-image{
+    position: relative;
+	width: 100%;
+}
+
+.padding-operation{
+	padding-bottom: 20px;
+}
 /* footer */
 .pad-footer{
 	padding-top: 100px;
