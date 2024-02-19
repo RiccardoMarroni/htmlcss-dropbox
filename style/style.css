@@ -123,6 +123,10 @@ html{
 	position: sticky;
 	z-index: 10;
 }
+
+.anti-img{
+	filter: invert(0%);
+}
 /* jumbotron */
 .big-title{
 	font-size: 50pt;
