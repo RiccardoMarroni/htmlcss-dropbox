@@ -5,9 +5,9 @@
  box-sizing: border-box;
 }
 
-/* .debug{
+.debug{
     border: 1px solid red;
-} */
+}
 ul{
     list-style: none;
 }
@@ -119,6 +119,10 @@ html{
 	color: white;  
 }
 
+.scroll{
+	position: sticky;
+	z-index: 10;
+}
 /* jumbotron */
 .big-title{
 	font-size: 50pt;
@@ -309,20 +313,69 @@ margin-bottom: 250px;
 }
 
 /* square */
+.logo{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    padding: 50px;
+}
+
+img{
+    max-width: 100%;
+    filter: invert(100%);    
+    display: block;
+}
+
 .square{
-	width: 100%;
-	
+    width: calc(100% / 3);
 }
 
-.little-square{
-	width: 33%;
+.partners{
+    max-width: 100%;
 }
 
-.img-square{
-	width: 50%;
-	height: 250px;
+.designite{
+    background-color: var(--color-designit-green);
+}
+.asu{
+    background-color: var(--color-asu);
+}
+.florida{
+    background-color: var(--color-florida);
+}
+.topps{
+    background-color: red;
 }
 
+.hearts{
+	background-color: var(--color-jumbotron-blue);
+}
+.world-bicicle{
+	background-color: var(--color-dark-red);
+}
+
+.planet{
+	background-color: var(--color-lonely-planet);
+}
+
+.channel{
+	background-color: var(--color-yellow);
+}
+
+.big-d{
+	filter: invert(0%);
+	width: 80%;
+	padding: 30px;
+}
+
+.pd{
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 40px;
+}
+
+.margin-square{
+	margin-top: 150px;
+}
 /* FAQ */
 .margin-faq{
 	margin-top: 100px;
@@ -381,4 +434,17 @@ margin-bottom: 250px;
 
 .row-reverse{
 	flex-direction: row-reverse;
+}
+
+.wrap{
+	flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+    align-content: center;
 }
