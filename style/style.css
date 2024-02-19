@@ -3,11 +3,12 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
-/}
+}
 
 /* .debug{
     border: 1px solid red;
-}*  */ */
+}*  */ 
+
 ul{
     list-style: none;
 }
@@ -116,7 +117,7 @@ html{
 	margin-top: 25px;
 	margin-bottom: 25px;
 	margin-right: 10px;
-	color: white;  
+	color: white; 
 }
 
 .scroll{
